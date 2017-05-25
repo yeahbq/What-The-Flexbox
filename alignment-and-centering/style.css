@@ -31,12 +31,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  justify-content: space-between;
   border: 10px solid mistyrose;
+  align-items: center;
+  height: 100vh;
   flex-direction: column;
-  min-height: 100vh;
 }
 
-.box {
+/* align-items can only center items with height! */
 
+.box1 {
+  font-size: 30px;
 }
+
+.box3 {
+  font-size: 150px;
+}
+/* align-items by baseline draws a line under all the text and lines up */
