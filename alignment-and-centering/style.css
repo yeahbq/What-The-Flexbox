@@ -33,9 +33,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  align-items: flex-start;
 }
 
 /* align-items can only center items with height! */
@@ -43,4 +41,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box {
   width: 33.33%;
+}
+
+.box2 {
+  padding-bottom: 200px;
+  align-self: flex-end;
+}
+
+.box6 {
+  padding-bottom: 0;
+  align-self: stretch;
+}
+
+.box9 {
+  padding-bottom: 50px;
+  align-self: center;
 }
