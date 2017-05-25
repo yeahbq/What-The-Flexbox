@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 20px;
+  font-size: 100px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -32,18 +32,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display: flex;
   border: 10px solid mistyrose;
-  align-items: center;
   height: 100vh;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 /* align-items can only center items with height! */
-
-.box1 {
-  font-size: 30px;
-}
-
-.box3 {
-  font-size: 150px;
-}
 /* align-items by baseline draws a line under all the text and lines up */
+
+.box {
+  width: 33.33%;
+}
