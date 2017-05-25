@@ -37,5 +37,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  width:33.3333333%;
+  width:calc(33.33333%);
+  border: 10px solid mistyrose;
 }
